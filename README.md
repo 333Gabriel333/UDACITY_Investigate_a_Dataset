@@ -1,8 +1,10 @@
 # UDACITY_Investigate_a_Dataset
 ## UDACITY Project - Unit 2 : Investigate a Dataser
 
-### How do I Complete this Project?
-This project is connected with the Introduction to Data Analysis course, but depending on your background knowledge, you may not need to take the whole class to complete this project.
+This project is about investigate a dataset. The data comes from the FBI's National Instant Criminal Background Check System. The NICS is used by to determine whether a prospective buyer is eligible to buy firearms or explosives. Gun shops call into this system to ensure that each customer does not have a criminal record or isn’t otherwise ineligible to make a purchase. The data has been supplemented with state level data from census.gov.
+
+The NICS data is found in one sheet of an .xlsx file. It contains the number of firearm checks by month, state, and type.
+The U.S. census data is found in a .csv file. It contains several variables at the state level. Most variables just have one data point per state (2016), but a few have data for more than one year.
 
 ### Introduction
 For this project, we conduct your own data analysis and create a file to share that documents your findings. We started by taking a look at our dataset and brainstorming what questions we could answer using it. Then we use pandas and NumPy to answer the questions we are most interested in, and create a report sharing the answers. We not use inferential statistics or machine learning to complete this project, but we make it clear in our communications that your findings are tentative. This project is open-ended in that we are not looking for one right answer.
